@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DZIRIBA - Isazisi Collection</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        font-family: "Arial", sans-serif;
+        scroll-behavior: smooth;
+        color: #420217;
+        background-color: #d6f599;
+      }
+      .hero {
+        background: linear-gradient(
+            rgba(67, 100, 54, 0.7),
+            rgba(67, 100, 54, 0.7)
+          ),
+          url("https://static.wixstatic.com/media/ebba0f_e4ef3c2b57bc4856b987c97ae736f1e4~mv2.jpg/v1/fill/w_500,h_333,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ebba0f_e4ef3c2b57bc4856b987c97ae736f1e4~mv2.jpg")
+            no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #d2ff28;
+        text-align: center;
+      }
+      .hero-content {
+        background: rgba(66, 2, 23, 0.8);
+        padding: 2rem;
+        border-radius: 10px;
+      }
+      h1 {
+        font-size: 4rem;
+        margin-bottom: 0.5rem;
+        letter-spacing: 0.2em;
+        color: #d2ff28;
+      }
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #d6f599;
+      }
+      .cta-button {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background-color: #c84c09;
+        color: #d6f599;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+      }
+      .cta-button:hover {
+        background-color: #d2ff28;
+        color: #420217;
+        transform: scale(1.05);
+      }
+      .section {
+        padding: 4rem 2rem;
+        text-align: center;
+      }
+      .section:nth-child(even) {
+        background-color: #436436;
+        color: #d6f599;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+      .gallery img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+        border: 3px solid #d2ff28;
+      }
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+      .quote {
+        font-style: italic;
+        font-size: 1.2rem;
+        margin: 2rem 0;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #d2ff28;
+        background-color: #420217;
+        padding: 2rem;
+        border-radius: 10px;
+      }
+      footer {
+        background-color: #420217;
+        color: #d6f599;
+        text-align: center;
+        padding: 1rem;
+      }
+      .bio {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: left;
+      }
+      .social-link {
+        color: #d2ff28;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+      .social-link:hover {
+        color: #c84c09;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="hero-content">
+        <h1>D Z I R I B A</h1>
+        <h2>Isazisi Collection</h2>
+        <p>Celebrating Identity Through Design</p>
+        <a href="#about" class="cta-button">Discover Our Journey</a>
+      </div>
+    </div>
+
+    <div id="about" class="section">
+      <h2>About Spamandla Mdunyelwa</h2>
+      <div class="bio">
+        <p>
+          Spamandla Mdunyelwa is a passionate self-taught surface pattern
+          designer behind DZIRIBA. Her journey in the world of design began to
+          gain recognition in 2018 when she became one of the Top 10 finalists
+          in the Nando's Hot Young Pattern Designer Competition. This
+          achievement earned her a coveted spot as a Design Maker on the Nando's
+          Portal to Africa, making her patterns available to international
+          designers for use in Nando's restaurants worldwide.
+        </p>
+        <p>
+          For six years, Spamandla has been on a journey of learning and
+          unlearning in the pattern and textile industry, a path that has
+          brought her ineffable joy and inspiration. Her work under the brand
+          name DZIRIBA showcases her growth and passion for cultural expression
+          through design.
+        </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>The Inspiration Behind ISAZISI (Identity)</h2>
+      <div class="quote">
+        "My designs embody a deep yearning for cultural connection, stemming
+        from my desire to embrace my heritage. Seasonal gatherings during
+        December holidays in rural areas left me craving a stronger bond.
+        Inspired by the nostalgic melodies and captivating dances of my culture,
+        isiXhosa, I embark on a journey to continuously design patterns that
+        weave together fragments of my identity."
+      </div>
+      <p>
+        Spamandla's artwork is characterized by repeating lines and circles
+        reminiscent of Xhosa attire and ancestral facial art (dot work),
+        reflecting unity. Her designs bridge urban life with the traditions of
+        her tribe, creating a bond where she finds belonging while honoring the
+        legacy of her people.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>The Collection</h2>
+      <div class="gallery">
+        <img
+          src="https://static.wixstatic.com/media/ebba0f_e48c5e616c934d75874ab53222b107fb~mv2.jpg/v1/fill/w_500,h_333,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ebba0f_e48c5e616c934d75874ab53222b107fb~mv2.jpg"
+          alt="Isazisi Design 1"
+        />
+        <img
+          src="https://static.wixstatic.com/media/ebba0f_2d114e6120874422a5283ceb69aaa0ae~mv2.jpg/v1/fill/w_500,h_333,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ebba0f_2d114e6120874422a5283ceb69aaa0ae~mv2.jpg"
+          alt="Isazisi Design 2"
+        />
+        <img
+          src="https://static.wixstatic.com/media/ebba0f_024504b7a98b4d5c98946753feb5972a~mv2.jpg/v1/fill/w_500,h_333,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ebba0f_024504b7a98b4d5c98946753feb5972a~mv2.jpg"
+          alt="Isazisi Design 3"
+        />
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Explore Isazisi</h2>
+      <p>
+        Discover the full range of Spamandla's cultural-inspired designs in the
+        Isazisi collection. Each pattern tells a story of heritage, identity,
+        and artistic expression.
+      </p>
+      <a href="https://www.fabricbank.co.za/shop-isazisi-fb" class="cta-button"
+        >View Full Collection</a
+      >
+    </div>
+
+    <footer>
+      <p>
+        &copy; 2024 DZIRIBA - Isazisi Collection. In collaboration with Fabric
+        Bank.
+      </p>
+      <p>
+        Follow us on Instagram:
+        <a
+          href="https://www.instagram.com/dziriba/?hl=en"
+          class="social-link"
+          target="_blank"
+          >@dziriba</a
+        >
+      </p>
+    </footer>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
